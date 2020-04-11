@@ -1,0 +1,62 @@
+body {
+  background-color: #FEF4BF;
+}
+
+* {}
+
+a {
+  display: block;
+  text-align: right;
+}
+
+div {
+  text-align: center;
+  border: solid 1px red;
+}
+
+h1 {
+  color: #40A44D
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  text-align: center;
+  border: 1px solid #C38723;
+  padding: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.diaporama {
+  border: solid 5px green;
+  display: block;
+  height: 50vw;
+  animation: 9s diaporama infinite;
+  background-image: url("arbre.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes diaporama {
+  0% {
+    background-image: url("arbre.png");
+  }
+
+  50% {
+    background-image: url("foret.png");
+  }
+
+  100% {
+    background-image: url("foretauto.png");
+  }
+}
